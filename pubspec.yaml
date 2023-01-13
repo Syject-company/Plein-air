@@ -1,0 +1,47 @@
+name: plein_air_club
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  rxdart: ^0.26.0
+  get_it: ^7.0.0
+  pedantic: ^1.9.2
+  flutter_svg: ^0.21.0+1
+  http: ^0.13.3
+  logger: ^1.0.0
+  json_serializable: ^4.1.0
+  shared_preferences: 2.0.5
+  geocoding: ^2.0.0
+  location: ^4.1.1
+  flutter_google_places: ^0.3.0
+  geocoder: ^0.2.1
+  provider: ^5.0.0
+  geolocator: ^7.0.3
+  google_maps_flutter: ^2.0.6
+  google_maps_cluster_manager: ^1.0.0
+  url_launcher: ^6.0.6
+  carousel_slider: ^4.0.0
+  cached_network_image: ^3.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.12.2
+  hive_generator: ^1.1.0
+flutter:
+  assets:
+    - assets/images/
+  fonts:
+    - family: UberMove
+      fonts:
+        - asset: assets/fonts/UberMoveBold.otf
+        - asset: assets/fonts/UberMoveMedium.otf
+  uses-material-design: true
